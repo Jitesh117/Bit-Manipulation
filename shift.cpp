@@ -1,11 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{   int n;
+ {   int n;
     cout << "Enter any number: ";
     cin >> n;
-    cout <<"Enter the value of i";
+    cout <<"Enter the value of i: ";
     int i;
     cin >> i;
     cout << n << " << " << i<< " = "<< (n<<i);
+    cout << endl;
+    cout << n << " >> " << i<< " = "<< (n>>i);
+   
+   return 0;
 }
