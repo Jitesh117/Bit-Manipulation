@@ -7,12 +7,8 @@ int main()
     int count = 0;
    while(n>0)
     {
-       
-        // f = f << i;
-        if(n&1!=0)
-            count++;
-        n=n>>1;
-        
+       count++;
+       n = n &(n-1);
     }
     cout <<endl<< count;
     return 0;
